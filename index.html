@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="skillsApp">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Display Studio - skill component</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Muli:300,300i,400,400i|Roboto+Slab:100,300,400,700&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=latin-ext" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="app/skill/skill.component.css" rel="stylesheet">
+</head>
+<body ng-controller="mainCtrl">
+     
+    <section>
+        <skill percent="60" show-percent="true" title="Availability"></skill>
+    </section>
+
+    <script type="text/javascript" src="js/angular.min.js"></script>
+
+    <script type="text/javascript">
+        var dApp = angular.module("skillsApp", []);
+    </script>
+
+    <script type="text/javascript" src="app/main/main.controller.js"></script>
+
+    <script type="text/javascript" src="app/skill/skill.component.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+skill {
+	height: 5px;
+	width: 100%;
+}
+
+skill h5 {
+	font-size: 16px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+skill h5 span {
+	float: right;
+}
+
+skill .skill-bar {
+	width: 100%;
+	height: 5px;
+	background: #eee;
+}
+
+skill .skill-range {
+	background: #ea1e31;
+	height: 100%;
+	line-height: 5px;
+}
